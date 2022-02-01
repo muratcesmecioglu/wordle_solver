@@ -6,7 +6,7 @@ class Wordle:
         self.letters = letters
         self.board = [['' for _ in range(letters)] for _ in range(rows)]
         self.colours = [['' for _ in range(letters)] for _ in range(rows)]
-        self.alph = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+        self.alph = ['A','B','C','Ç','D','E','F','G','Ğ','H','I','İ','J','K','L','M','N','O','Ö','P','R','S','Ş','T','U','Ü','V','Y','Z']
 
     def is_end(self):
         if self.board[-1] != ['' for _ in range(self.letters)]:

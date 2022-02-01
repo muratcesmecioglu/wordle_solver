@@ -5,6 +5,9 @@
 [![Top Languages](https://img.shields.io/github/languages/top/bellerb/wordle_solver?style=flat-square
 )](#)
 
+This fork is for [Wordle TR](https://f.github.io/wordle-tr/) by [@f](https://github.com/f).
+---
+
 ### Description
 The following is a program for playing Wordle in the console written in python3. When playing the game will give you 3 options:
 
@@ -42,4 +45,4 @@ To get a better understanding of why the code is written this way check out my d
 * https://medium.com/@bellerb/wordle-solver-using-python-3-3c3bccd3b4fb
 
 ## Reference
-* https://github.com/dwyl/english-words
+* https://f.github.io/wordle-tr/

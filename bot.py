@@ -4,7 +4,7 @@ import pandas as pd
 
 class Agent:
     def __init__(self, game, f_name='data/words.csv'):
-        self.vowels = ['A','E','I','O','U','Y']
+        self.vowels = ['A','E','I','İ','O','Ö','U','Ü']
         w_bank = pd.read_csv(f_name)
         w_bank = w_bank[w_bank['words'].str.len()==game.letters]
         w_bank['words'] = w_bank['words'].str.upper() #Convert all words to uppercase
